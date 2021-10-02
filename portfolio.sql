@@ -1,4 +1,6 @@
 
+--data source:https://ourworldindata.org/covid-deaths
+
 -- Select Data that we are going to be starting with
 Select Location, date, total_cases, new_cases, total_deaths, population
 From PortfolioProject..CovidDeaths
